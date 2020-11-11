@@ -1,16 +1,18 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class Portfolio extends Component {
-    state = {
-        picture: [],
-        projects: [],
-
-    }
-    render() {
-        return (
-            <div>
-                hello
-            </div>
-        )
-    }
+export default function Portfolio(props) {
+    return (
+        <figure className="row">
+            <figcaption className="col-md-6 project">
+                <div className="hovereffect">
+                    <img src={props.image} alt="Work-Scheduler" className="img-fluid" />
+                    <div className="overlay">
+                        <h2>{props.name}!</h2>
+                        <a className="btn btn-dark" href={props.github} target="_blank" >{props.name}</a>
+                        <a className="btn btn-dark" href={props.link} target="_blank" >Link</a>
+                    </div>
+                </div>
+            </figcaption>
+        </figure>
+    )
 }

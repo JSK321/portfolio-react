@@ -19,7 +19,6 @@
 
 //     render() {
 //         return (
-//             <div>Hello</div>
 //             // <div className="container">
 //             //     <figure className="row">
 //             //         <figcaption className="col-md-12">
