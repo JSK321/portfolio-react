@@ -1,4 +1,5 @@
 import React from 'react'
+import "./styles.css"
 
 export default function NavBar() {
     return (
@@ -13,13 +14,13 @@ export default function NavBar() {
                 <section class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
+                            <a class="nav-link" href="contact">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                            <a class="nav-link" href="portfolio">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="index.html">About</a>
+                            <a class="nav-link active" href="index">About</a>
                         </li>
                     </ul>
                 </section>
