@@ -4,13 +4,15 @@ import AboutMe from "./components/AboutMe"
 
 
 function App() {
-  return (  
+  return (
     <Router>
       <NavBar />
       <Switch>
-
+        <Route exact path="/">
+          <AboutMe />
+        </Route>
         <Route exact path="/aboutme">
-          <AboutMe/>
+          <AboutMe />
         </Route>
 
       </Switch>
