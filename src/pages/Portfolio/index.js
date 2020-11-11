@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
+import PortfolioCard from '../../components/PortfolioCard'
 import projects from '../../projects.json'
+import './styles.css'
 
 export default class Portfolio extends Component {
     state = {
-       projects: projects,
+        projects: projects,
     }
 
     render() {
@@ -15,17 +17,18 @@ export default class Portfolio extends Component {
                         <hr />
                     </figcaption>
                 </figure>
-                
-            {this.state.projects.map((projectObj) =>(
-                <Portfolio 
-                    key={projectObj.id}
-                    id={projectObj.id}
-                    name={projectObj.name}
-                    image={projectObj.image}
-                    github={projectObj.github}
-                    link={projectObj.link}
-                />
-            ))}
+                <figure className="row">
+                    {this.state.projects.map((projectObj) => (
+                        <PortfolioCard
+                            key={projectObj.id}
+                            id={projectObj.id}
+                            name={projectObj.name}
+                            image={projectObj.image}
+                            github={projectObj.github}
+                            link={projectObj.link}
+                        />
+                    ))}
+                </figure>
             </div>
         )
     }

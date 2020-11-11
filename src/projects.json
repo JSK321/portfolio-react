@@ -1,16 +1,37 @@
 [
     {
         "id":1,
-        "name":"Patched!",
-        "image":"./utils/Portfolio_Images/patched_index.png",
-        "github":"https://github.com/ckomodo/garden-share",
-        "link":"https://patchedapp.herokuapp.com/"
+        "name":"Patched",
+        "image":"https://i.imgur.com/mAWeLvq.png",
+        "github":"https://patchedapp.herokuapp.com/",
+        "link":"https://github.com/ckomodo/garden-share"
     },
     {
         "id":2,
-        "name":"Gym Bro!",
-        "image":"./utils/Portfolio_Images/gym_bro.png",
+        "name":"Gym Bro",
+        "image":"https://i.imgur.com/YqvpSxT.png",
         "github":"https://dan-gentile.github.io/gym-bro/index.html",
         "link":"https://github.com/dan-gentile/gym-bro"
+    },
+    {
+        "id":3,
+        "name":"Employee Directory",
+        "image":"https://i.imgur.com/CZhA9NB.png",
+        "github":"https://employee-reactory.herokuapp.com/",
+        "link":"https://github.com/JSK321/Employee-Reactory"
+    },
+    {
+        "id":4,
+        "name":"Work Scheduler",
+        "image":"https://i.imgur.com/bkr2Uc7.png",
+        "github":"https://jsk321.github.io/work-scheduler/",
+        "link":"https://github.com/JSK321/work-scheduler"
+    },
+    {
+        "id":5,
+        "name":"The Lion King Quiz Game",
+        "image":"https://i.imgur.com/n5m9Ssx.png",
+        "github":"https://jsk321.github.io/Quiz-Game/",
+        "link":"https://github.com/JSK321/Quiz-Game"
     }
 ]
