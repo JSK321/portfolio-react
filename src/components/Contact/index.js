@@ -24,7 +24,7 @@ export default function Contact() {
                 </div>
 
                 <div className="form-group text-center">
-                    <button type="submit" className="btn btn-dark contact">Submit</button>
+                    <button type="submit" className="btn btn-dark submitBtn">Submit</button>
                 </div>
 
             </form>

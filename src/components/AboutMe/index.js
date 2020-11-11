@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from '../../utils/Images/me.jpg'
-import "./styles.css"
+import './styles.css'
 
 export default function AboutMe() {
     return (
