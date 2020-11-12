@@ -7,8 +7,8 @@ export default function PortfolioCard(props) {
                 <img src={props.image} alt="Work-Scheduler" className="img-fluid" />
                 <div className="overlay">
                     <h2>{props.name}!</h2>
-                    <a className="btn btn-dark" href={props.github} target="_blank" >{props.name}</a>
-                    <a className="btn btn-dark" href={props.link} target="_blank" >Github</a>
+                    <a className="btn btn-dark" href={props.link} target="_blank" >{props.name}</a>
+                    <a className="btn btn-dark" href={props.github} target="_blank" >Github</a>
                 </div>
             </div>
         </figcaption>

@@ -20,7 +20,7 @@ export default function NavBar() {
                             <a className="nav-link" href="portfolio">Portfolio</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active" href="aboutme">About</a>
+                            <a className="nav-link" href="aboutme">About</a>
                         </li>
                     </ul>
                 </section>
