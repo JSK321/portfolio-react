@@ -1,19 +1,9 @@
-/* * {
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-} */
-
-/* .navbar-brand {
-    background-color: lightslategrey;
-    font-size: 25px;
-    width: 100px;
-    text-align: center;
-    border-radius: 10px;
-    
-} */
-
-.nav-link {
-    font-size: 25px;
+.NavBarName{
+    margin-left:10px;
+    font-size: 34px;
 }
 
+.NavBarLink {
+    margin-left:15px;
+    font-size: 21px;
+}

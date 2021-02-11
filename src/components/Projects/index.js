@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Container, Row } from 'react-bootstrap'
 import ProjectCard from '../ProjectCard'
 import projects from '../../projects.json'
 import './styles.css'
@@ -10,14 +11,14 @@ export default class Projects extends Component {
 
     render() {
         return (
-            <div className="container">
-                <figure className="row">
+            <Container>
+                <Row>
                     <figcaption className="col-md-12">
                         <h1>Projects</h1>
                         <hr />
                     </figcaption>
-                </figure>
-                <figure className="row">
+                </Row>
+                <Row>
                     {this.state.projects.map((projectObj) => (
                         <ProjectCard
                             key={projectObj.id}
@@ -28,8 +29,8 @@ export default class Projects extends Component {
                             link={projectObj.link}
                         />
                     ))}
-                </figure>
-            </div>
+                </Row>
+            </Container>
         )
     }
 }

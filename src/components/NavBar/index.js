@@ -5,19 +5,24 @@ import './styles.css'
 
 export default function NavBar() {
     return (
-        <Nav>
-            <Nav.Item>
-                <Navbar.Brand href="/">Jae Kim</Navbar.Brand>
-            </Nav.Item>
-            <Nav.Item>
-                <Link activeClass="active" className="aboutMe" to="aboutMe" spy={true} smooth={true} duration={500} >About Me</Link>
-            </Nav.Item>
-            <Nav.Item>
-                <Link activeClass="active" className="projects" to="projects" spy={true} smooth={true} duration={500} >Projects</Link>
-            </Nav.Item>
-            <Nav.Item>
-                <Link activeClass="active" className="contactMe" to="contactMe" spy={true} smooth={true} duration={500} >Contact Me</Link>
-            </Nav.Item>
-        </Nav>
+        <Navbar style={{marginTop:"10px"}}>
+            <Navbar.Brand className="NavBarName">Jae Kim</Navbar.Brand>
+            <Navbar.Collapse id="responsive-navbar-nav">
+                <Nav className="mr-auto">
+                    <Nav.Link>
+                        <Link activeClass="active" className="NavBarLink" to="aboutMe" spy={true} smooth={true} duration={500} >About Me</Link>
+                    </Nav.Link>
+                    <Nav.Link>
+                        <Link activeClass="active" className="NavBarLink" to="projects" spy={true} smooth={true} duration={500} >Projects</Link>
+                    </Nav.Link>
+                    <Nav.Link>
+                        <Link activeClass="active" className="NavBarLink" to="skill" spy={true} smooth={true} duration={500} >Skills</Link>
+                    </Nav.Link>
+                    <Nav.Link>
+                        <Link activeClass="active" className="NavBarLink" to="contactMe" spy={true} smooth={true} duration={500} >Contact</Link>
+                    </Nav.Link>
+                </Nav>
+            </Navbar.Collapse>
+        </Navbar>
     )
 }
