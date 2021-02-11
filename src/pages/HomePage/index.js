@@ -2,8 +2,9 @@ import React from 'react'
 import { Container } from 'react-bootstrap'
 import { Element } from "react-scroll"
 import NavBar from '../../components/NavBar'
-import AboutMe from '../AboutMe'
+import AboutMe from '../../components/AboutMe'
 import Portfolio from '../Portfolio'
+import './styles.css'
 
 export default function HomePage() {
     return (
