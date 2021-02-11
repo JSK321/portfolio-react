@@ -4,3 +4,6 @@ A portfolio created using REACT which show cases the various projects that have 
 
 ## React-Application
 View the application at: https://jsk-react-portfolio.herokuapp.com/
+
+## Screenshot
+![Website index](https://i.imgur.com/blXcvb9.png)
