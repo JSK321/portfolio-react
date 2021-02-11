@@ -7,6 +7,7 @@ export default function NavBar() {
     return (
         <Navbar style={{marginTop:"10px"}}>
             <Navbar.Brand className="NavBarName">Jae Kim</Navbar.Brand>
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
                     <Nav.Link>
@@ -16,10 +17,10 @@ export default function NavBar() {
                         <Link activeClass="active" className="NavBarLink" to="projects" spy={true} smooth={true} duration={500} >Projects</Link>
                     </Nav.Link>
                     <Nav.Link>
-                        <Link activeClass="active" className="NavBarLink" to="skill" spy={true} smooth={true} duration={500} >Skills</Link>
+                        <Link activeClass="active" className="NavBarLink" to="skills" spy={true} smooth={true} duration={500} >Skills</Link>
                     </Nav.Link>
                     <Nav.Link>
-                        <Link activeClass="active" className="NavBarLink" to="contactMe" spy={true} smooth={true} duration={500} >Contact</Link>
+                        <Link activeClass="active" className="NavBarLink" to="contact" spy={true} smooth={true} duration={500} >Contact</Link>
                     </Nav.Link>
                 </Nav>
             </Navbar.Collapse>

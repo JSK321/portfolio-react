@@ -11,7 +11,7 @@ export default class Projects extends Component {
 
     render() {
         return (
-            <Container>
+            <div>
                 <Row>
                     <figcaption className="col-md-12">
                         <h1>Projects</h1>
@@ -30,7 +30,7 @@ export default class Projects extends Component {
                         />
                     ))}
                 </Row>
-            </Container>
+            </div>
         )
     }
 }

@@ -1,16 +1,15 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Element } from "react-scroll"
+
 import NavBar from "./components/NavBar"
 import HomePage from "./pages/HomePage"
 
 function App() {
   return (
     <Router>
-        <NavBar />
+      <NavBar />
       <HomePage />
 
     </Router>
-    // <Router>
     //   <Switch>
     //     <Route exact path="/">
     //       <HomePage />
