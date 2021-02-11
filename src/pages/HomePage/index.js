@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap'
 import { Element } from "react-scroll"
 import NavBar from '../../components/NavBar'
 import AboutMe from '../../components/AboutMe'
-import Portfolio from '../Portfolio'
+import Projects from '../../components/Projects'
 import './styles.css'
 
 export default function HomePage() {
@@ -14,7 +14,7 @@ export default function HomePage() {
                 <AboutMe />
             </Element>
             <Element name="projects">
-                <Portfolio />
+                <Projects />
             </Element>
         </Container>
     )

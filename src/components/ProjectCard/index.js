@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function PortfolioCard(props) {
+export default function ProjectCard(props) {
     return (
         <figcaption className="col-md-6 project">
             <div className="hovereffect">
