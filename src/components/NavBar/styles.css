@@ -1,25 +1,26 @@
-* {
+/* * {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-}
+} */
 
 body {
-    background-image: url("https://i.pinimg.com/originals/19/fc/21/19fc21dc1f8a339ea8f302c75320a28f.jpg");
+    background: beige;
+    /* background-image: url("https://i.pinimg.com/originals/19/fc/21/19fc21dc1f8a339ea8f302c75320a28f.jpg");
     padding-bottom: 50px;
     color:lightcyan;
-    font-family: cursive, Tahoma, sans-serif;
+    font-family: cursive, Tahoma, sans-serif; */
     
 }
 
-.navbar-brand {
+/* .navbar-brand {
     background-color: lightslategrey;
     font-size: 25px;
     width: 100px;
     text-align: center;
     border-radius: 10px;
     
-}
+} */
 
 .nav-link {
     font-size: 25px;
