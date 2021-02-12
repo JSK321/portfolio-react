@@ -5,7 +5,7 @@ import './styles.css'
 export default function Contact() {
     return (
         <Card className="contactMeCard">
-            <h1 className="skillsTitle">Contact me</h1>
+            <h1 className="skillsTitle">Contact</h1>
             <Row className="contactRow">
                 <Col>
                     <Button

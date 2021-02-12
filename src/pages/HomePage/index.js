@@ -10,7 +10,7 @@ export default function HomePage() {
     return (
         <div>
             <h1 className="nameTitle">Jae Kim</h1>
-            <h1 className="jobTitle">Full Stack Web Developer</h1>
+            <h1 className="jobTitle">Full-Stack Web Developer</h1>
             <Element name="aboutMe">
                 <AboutMe />
             </Element>

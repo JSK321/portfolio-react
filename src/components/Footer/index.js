@@ -10,7 +10,9 @@ export default function Footer() {
         <div className="footer" >
             <Row>
                 <Col>
-                    <strong>© Copyright Jae Kim</strong>
+                    <Nav.Link eventKey="disabled" disabled>
+                        <strong>© Copyright Jae Kim</strong>
+                    </Nav.Link>
                 </Col>
                 <Col>
                     <Nav.Link>
@@ -18,7 +20,9 @@ export default function Footer() {
                     </Nav.Link>
                 </Col>
                 <Col>
-                    <strong>Built With: Javascript, React.js, Bootstrap</strong>
+                    <Nav.Link eventKey="disabled" disabled>
+                        <strong>Built with: JavaScript, React.js, Bootstrap</strong>
+                    </Nav.Link>
                 </Col>
             </Row>
         </div>

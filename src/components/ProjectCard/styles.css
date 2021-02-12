@@ -2,16 +2,11 @@
     background-color: transparent;
     text-align: center;
     border: 0px;
-    /* margin-left: 10px;
-    margin-right: 10px; */
 }
 
-.projectCardText{
-    /* background:linear-gradient(to bottom right, floralwhite, gainsboro); */
-}
 .projectLinkBtn, .projectLinkBtn:link, .projectLinkBtn:hover, .projectLinkBtn:active, .projectLinkBtn:focus, .projectLinkBtn:visited{
     width:50%;
-    background:linear-gradient(to bottom right, cornflowerblue, gainsboro);
+    background:linear-gradient(to bottom right, powderblue, mediumpurple);
     border:0px;
     color: black;
     margin-top:-5px;

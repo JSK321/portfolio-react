@@ -1,6 +1,6 @@
 .contactMeCard{
     background: mediumpurple;
-    color: beige;
+    color: black;
 }
 
 .contactRow {
@@ -11,6 +11,6 @@
     text-decoration: underline;
     background: transparent;
     border: 0px;
-    color: beige;
+    color: black;
     margin-bottom:50px;
 }

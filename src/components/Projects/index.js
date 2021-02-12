@@ -22,6 +22,8 @@ export default function Projects() {
                             image={projectObj.image}
                             github={projectObj.github}
                             link={projectObj.link}
+                            description={projectObj.description}
+                            technologies={projectObj.technologies}
                         />
                     </div>
                 ))}

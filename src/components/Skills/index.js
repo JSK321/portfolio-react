@@ -7,6 +7,8 @@ export default function Skills() {
         <Card className="skillsCard">
             <h1 className="skillsTitle">Skills</h1>
             <Row className= "skillsRow" noGutters>
+                <Col>
+                </Col>
                 <Col md="auto">
                     <ul>
                         <h3>Languages</h3>
@@ -15,13 +17,17 @@ export default function Skills() {
                         <li>HTML</li>
                     </ul>
                 </Col>
+                <Col>
+                </Col>
                 <Col md="auto">
                     <ul>
                         <h3>Libraries</h3>
                         <li>React.js</li>
                         <li>Handlebars</li>
-                        <li>Jquery</li>
+                        <li>jQuery</li>
                     </ul>
+                </Col>
+                <Col>
                 </Col>
                 <Col md="auto">
                     <ul>
@@ -31,11 +37,15 @@ export default function Skills() {
                         <li>Bootstrap</li>
                     </ul>
                 </Col>
+                <Col>
+                </Col>
                 <Col md="auto">
                     <ul>
                         <h3>Databases</h3>
                         <li>MySQL</li>
                     </ul>
+                </Col>
+                <Col>
                 </Col>
                 <Col md="auto">
                     <ul>
@@ -43,6 +53,8 @@ export default function Skills() {
                         <li>GitHub</li>
                         <li>Heroku</li>
                     </ul>
+                </Col>
+                <Col>
                 </Col>
             </Row>
         </Card>

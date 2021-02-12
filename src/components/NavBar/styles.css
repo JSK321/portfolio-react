@@ -1,11 +1,6 @@
-.NavBarName{
-    margin-left:10px;
-    font-size: 34px;
-}
-
 .NavBarLink, .NavBarLink:link, .NavBarLink:hover, .NavBarLink:active, .NavBarLink:focus, .NavBarLink:visited {
     text-decoration: none;
     font-size: 21px;
-    color:cornflowerblue;
+    color:black;
 }
 

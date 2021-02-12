@@ -1,8 +1,8 @@
 .skillsCard{
-    background: cornflowerblue;
+    background: powderblue;
     width: 100%;
     border: 0px;
-    color: beige;
+    color: black;
 }
 
 .skillsTitle{
@@ -12,9 +12,27 @@
 }
 
 .skillsRow{
-    justify-content: center;
+    margin-right: 30px;
 }
 
 ul {
     list-style-type: none; 
+}
+
+@media screen and (max-width: 850px){
+    .skillsRow{
+        margin-right: 0px;
+    }
+}
+@media screen and (max-width: 400px){
+    .skillsRow{
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+}
+@media screen and (max-width: 330px){
+    .skillsRow{
+        margin-left: auto;
+        margin-right: auto;
+    }
 }

@@ -1,8 +1,21 @@
 .aboutMeCard{
-    background-color: cornflowerblue;
+    background-color: powderblue;
     border: 0px;
-    font-size: 18px;
-    color: beige;
+    font-size: 25px;
+    color: black;
 }
 
 
+
+@media screen and (max-width: 1400px){
+    .aboutMeBio{
+      font-style: 21px;
+    }
+}
+@media screen and (max-width: 820px){
+    .aboutMeBio{
+        font-size: 1rem;
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+}

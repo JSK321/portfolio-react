@@ -5,11 +5,16 @@ import './styles.css'
 export default function ProjectCard(props) {
     return (
         <Card className="projectCard">
-            <h2>{props.name}!</h2>
-            <Card.Img src={props.image} alt="Project Image"/>
+            <h2>{props.name}</h2>
+            <Card.Img src={props.image} alt="Project Image" />
             <Card.Body className="projectCardBody">
-                <Card.Text className="projectCardText">
-                    fjdsajfl;dkajfkl;dasjfkl;sdjakl;fjdsakl;fjdaskl;fjdkl;ajfkl;dsajfkl;jdaskl;fjasdkl;jfkl;sdjfkl;dajfkl;sdjafl;ksdaj
+                <strong>Summary</strong>
+                <Card.Text>
+                    {props.description}
+                </Card.Text>
+                <strong>Technologies</strong>
+                <Card.Text>
+                    {props.technologies}
                 </Card.Text>
                 <Button className="projectLinkBtn" href={props.link} target="_blank" rel="noreferrer">Live</Button>
                 <br></br>
