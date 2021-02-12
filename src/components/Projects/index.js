@@ -11,7 +11,7 @@ export default function Projects() {
 
     return (
         <Card className="projectsCard">
-            <h1>Projects</h1>
+            <h1 className="skillsTitle">Projects</h1>
             <Row>
                 {projectState.projects.map((projectObj) => (
                     <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12">

@@ -1,3 +1,16 @@
+.contactMeCard{
+    background: mediumpurple;
+    color: beige;
+}
+
 .contactRow {
-    margin: 0 auto;
+    margin: auto;
+}
+
+.contactMeBtn, .contactMeBtn:hover, .contactMeBtn:link, .contactMeBtn:active, .contactMeBtn:focus, .contactMeBtn:visited {
+    text-decoration: none;
+    background: transparent;
+    border: 0px;
+    color: beige;
+    margin-bottom:50px;
 }

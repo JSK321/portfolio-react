@@ -8,7 +8,7 @@ export default function AboutMe() {
             <Card className="aboutMeCard">
                 <Row>
                     <Col md={12}>
-                        <h1>About Me</h1>
+                        <h1 className="skillsTitle">About Me</h1>
                     </Col>
                     <Col md={4}>
                         <Card.Img src={Picture} alt="Picture Placeholder" className="img-fluid" />

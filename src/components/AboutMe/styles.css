@@ -1,12 +1,8 @@
 .aboutMeCard{
-    background-color: transparent;
-    /* border: 0px; */
+    background-color: cornflowerblue;
+    border: 0px;
     font-size: 18px;
-    /* margin-top: 300px;
-    margin-bottom: 300px; */
+    color: beige;
 }
 
-.img-fluid {
-    border-radius: 25px;
-}
 

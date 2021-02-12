@@ -1,18 +1,13 @@
 body {
     background: beige;
-    /* background-image: url("https://i.pinimg.com/originals/19/fc/21/19fc21dc1f8a339ea8f302c75320a28f.jpg");
-    padding-bottom: 50px;
-    color:lightcyan;
-    font-family: cursive, Tahoma, sans-serif; */
+    /* color:lightcyan; */
+    font-family: sans-serif;
     
-}
-
-h1 {
-    text-align: center;
 }
 
 .nameTitle {
     font-size: 100px;
+    text-align: center;
 }
 
 .jobTitle {
