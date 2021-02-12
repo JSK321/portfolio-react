@@ -9,27 +9,20 @@ import './styles.css'
 
 export default function HomePage() {
     return (
-        <Container>
-            <Row>
-                <Element name="aboutMe">
-                    <AboutMe />
-                </Element>
-            </Row>
-            <Row>
-                <Element name="projects">
-                    <Projects />
-                </Element>
-            </Row>
-            <Row>
-                <Element name="skills">
-                    <Skills />
-                </Element>
-            </Row>
-            <Row>
-                <Element name="contact">
-                    <Contact />
-                </Element>
-            </Row>
+        <Container fluid>
+            <p className="jobTitle">Full Stack Web Developer</p>
+            <Element name="aboutMe">
+                <AboutMe />
+            </Element>
+            <Element name="projects">
+                <Projects />
+            </Element>
+            <Element name="skills">
+                <Skills />
+            </Element>
+            <Element name="contact">
+                <Contact />
+            </Element>
         </Container>
     )
 }

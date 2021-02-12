@@ -5,7 +5,7 @@ import './styles.css'
 
 export default function NavBar() {
     return (
-        <Navbar style={{marginTop:"10px"}}>
+        <Navbar expand="sm">
             <Navbar.Brand className="NavBarName">Jae Kim</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">

@@ -6,3 +6,24 @@ body {
     font-family: cursive, Tahoma, sans-serif; */
     
 }
+
+h1 {
+    text-align: center;
+}
+
+.nameTop {
+    font-size: 100px;
+}
+
+.jobTitle {
+    text-align: center;
+    font-size: 50px;
+}
+
+@media screen and (max-width: 570px){
+    .jobTitle {
+        text-align: center;
+        font-size: 30px;
+    }
+    
+}
