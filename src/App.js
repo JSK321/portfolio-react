@@ -1,4 +1,5 @@
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
+import { Element } from "react-scroll"
 
 import NavBar from "./components/NavBar"
 import Footer from "./components/Footer"
@@ -7,29 +8,12 @@ import HomePage from "./pages/HomePage"
 function App() {
   return (
     <Router>
-      <NavBar />
+      <Element name="top">
+        <NavBar />
+      </Element>
       <HomePage />
       <Footer />
     </Router>
-    //   <Switch>
-    //     <Route exact path="/">
-    //       <HomePage />
-    //     </Route>
-    //     <Route exact path="/aboutme">
-    //       <AboutMe />
-    //     </Route>
-    //     <Route exact path="/contact">
-    //       <Contact />
-    //     </Route>
-    //     <Route exact path="/portfolio">
-    //       <Portfolio />
-    //     </Route>
-    //     <Route path="*">
-    //       <NoMatch />
-    //     </Route>
-    //   </Switch>
-    //   <Footer />
-    // </Router>
   );
 }
 

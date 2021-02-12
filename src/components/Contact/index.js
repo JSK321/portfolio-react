@@ -48,7 +48,7 @@ export default function Contact() {
                     <Card.Text style={{ textAlign: "center" }}>
                         <strong>Phone</strong>
                         <p>
-                            253-292-7744
+                            (253) 292-7744
                         </p>
                     </Card.Text>
                 </Col>

@@ -1,5 +1,4 @@
 import React from 'react'
-import { Container, Row } from 'react-bootstrap'
 import { Element } from "react-scroll"
 import AboutMe from '../../components/AboutMe'
 import Projects from '../../components/Projects'
