@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Row } from 'react-bootstrap'
 import { Element } from "react-scroll"
+
 import AboutMe from '../../components/AboutMe'
 import Projects from '../../components/Projects'
 import Skills from '../../components/Skills'
@@ -10,7 +11,7 @@ import './styles.css'
 export default function HomePage() {
     return (
         <Container fluid>
-            <p className="jobTitle">Full Stack Web Developer</p>
+            <h1 className="jobTitle">Full Stack Web Developer</h1>
             <Element name="aboutMe">
                 <AboutMe />
             </Element>

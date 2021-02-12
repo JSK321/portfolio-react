@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Card, Row } from 'react-bootstrap'
+import { Card, Row, Col } from 'react-bootstrap'
 import ProjectCard from '../ProjectCard'
 import projects from '../../projects.json'
 import './styles.css'
@@ -10,22 +10,20 @@ export default function Projects() {
     })
 
     return (
-        <Card>
-            <Row>
-                <figcaption className="col-md-12">
-                    <h1>Projects</h1>
-                </figcaption>
-            </Row>
+        <Card className="projectsCard">
+            <h1>Projects</h1>
             <Row>
                 {projectState.projects.map((projectObj) => (
-                    <ProjectCard
-                        key={projectObj.id}
-                        id={projectObj.id}
-                        name={projectObj.name}
-                        image={projectObj.image}
-                        github={projectObj.github}
-                        link={projectObj.link}
-                    />
+                    <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <ProjectCard
+                            key={projectObj.id}
+                            id={projectObj.id}
+                            name={projectObj.name}
+                            image={projectObj.image}
+                            github={projectObj.github}
+                            link={projectObj.link}
+                        />
+                    </div>
                 ))}
             </Row>
         </Card>
