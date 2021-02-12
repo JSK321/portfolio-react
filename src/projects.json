@@ -14,7 +14,7 @@
         "image": "https://i.imgur.com/dtNYLNr.png",
         "link": "https://haruharurecipe.herokuapp.com/",
         "github": "https://github.com/JSK321/ummas-cb",
-        "description": "HaruHaru Recipe is a website for users to share their family recipes. Originally designed to help family and friends to share recipes easily.",
+        "description": "HaruHaru Recipe is a website for users to share their family recipes. Originally designed to help family and friends to share recipes with ease.",
         "technologies":"JavaScript, React.js, Express.js, Node.js, MySQL and Bootstrap."
     },
     {

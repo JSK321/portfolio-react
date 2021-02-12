@@ -18,7 +18,7 @@ export default function ProjectCard(props) {
                 </Card.Text>
                 <Button className="projectLinkBtn" href={props.link} target="_blank" rel="noreferrer">Live</Button>
                 <br></br>
-                <Button className="projectLinkBtn" href={props.github} target="_blank" rel="noreferrer">Github</Button>
+                <Button className="projectLinkBtn" href={props.github} target="_blank" rel="noreferrer">GitHub</Button>
             </Card.Body>
         </Card>
 
