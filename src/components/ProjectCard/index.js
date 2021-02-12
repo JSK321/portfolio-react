@@ -11,9 +11,9 @@ export default function ProjectCard(props) {
                 <Card.Text className="projectCardText">
                     fjdsajfl;dkajfkl;dasjfkl;sdjakl;fjdsakl;fjdaskl;fjdkl;ajfkl;dsajfkl;jdaskl;fjasdkl;jfkl;sdjfkl;dajfkl;sdjafl;ksdaj
                 </Card.Text>
-                <Button className="projectLinkBtn" href={props.link} target="_blank" rel="noreferrer">{props.name} Link</Button>
+                <Button className="projectLinkBtn" href={props.link} target="_blank" rel="noreferrer">Live</Button>
                 <br></br>
-                <Button className="projectLinkBtn" href={props.github} target="_blank" rel="noreferrer">Github Link</Button>
+                <Button className="projectLinkBtn" href={props.github} target="_blank" rel="noreferrer">Github</Button>
             </Card.Body>
         </Card>
 

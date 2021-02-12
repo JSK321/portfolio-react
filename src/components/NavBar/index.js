@@ -6,7 +6,6 @@ import './styles.css'
 export default function NavBar() {
     return (
         <Navbar expand="md">
-            <Navbar.Brand className="NavBarName">Jae Kim</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">

@@ -11,6 +11,7 @@ import './styles.css'
 export default function HomePage() {
     return (
         <Container fluid>
+            <h1 className="nameTitle">Jae Kim</h1>
             <h1 className="jobTitle">Full Stack Web Developer</h1>
             <Element name="aboutMe">
                 <AboutMe />

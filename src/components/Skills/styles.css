@@ -1,3 +1,13 @@
+.skillsCard{
+    background: transparent;
+    /* border: 0px; */
+}
+
 .skillsTitle{
+    margin-bottom: 50px;
+    /* margin: 0 auto; */
+}
+
+.skillsRow {
     margin: 0 auto;
 }

@@ -1,13 +1,11 @@
 import React from 'react'
-import { Row, Col, Container } from 'react-bootstrap'
+import { Row, Col, Card } from 'react-bootstrap'
 import './styles.css'
 
 export default function Skills() {
     return (
-        <div>
-            <Row>
-                <h1 className="skillsTitle">Skills</h1>
-            </Row>
+        <Card className="skillsCard">
+            <h1 className="skillsTitle">Skills</h1>
             <Row className="skillsRow">
                 <Col>
                     <h3>Languages</h3>
@@ -30,6 +28,6 @@ export default function Skills() {
                     <p>GitHub, Heroku</p>
                 </Col>
             </Row>
-        </div>
+        </Card>
     )
 }
