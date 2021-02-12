@@ -1,0 +1,21 @@
+.projectCard {
+    background-color: transparent;
+    text-align: center;
+    border: 0px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+}
+
+.projectCardText{
+    /* background:linear-gradient(to bottom right, floralwhite, gainsboro); */
+}
+.projectLinkBtn, .projectLinkBtn:link, .projectLinkBtn:hover, .projectLinkBtn:active, .projectLinkBtn:focus, .projectLinkBtn:visited{
+    width:50%;
+    background:linear-gradient(to bottom right, cornflowerblue, gainsboro);
+    border:0px;
+    color: black;
+    margin-top:-5px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    font-weight: bold;
+}

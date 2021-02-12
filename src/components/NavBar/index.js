@@ -1,30 +1,28 @@
 import React from 'react'
+import { Nav, Navbar } from 'react-bootstrap'
+import { Link } from "react-scroll"
 import './styles.css'
 
 export default function NavBar() {
     return (
-        <div>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a className="navbar-brand">Jae Kim</a>
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
-
-                <section className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul className="navbar-nav ml-auto">
-                        <li className="nav-item">
-                            <a className="nav-link" href="contact">Contact</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="portfolio">Portfolio</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="aboutme">About</a>
-                        </li>
-                    </ul>
-                </section>
-            </nav>
-        </div>
+        <Navbar expand="md">
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Collapse id="responsive-navbar-nav">
+                <Nav className="mr-auto">
+                    <Nav.Link>
+                        <Link activeClass="active" className="NavBarLink" to="aboutMe" spy={true} smooth={true} duration={500} >About Me</Link>
+                    </Nav.Link>
+                    <Nav.Link>
+                        <Link activeClass="active" className="NavBarLink" to="projects" spy={true} smooth={true} duration={500} >Projects</Link>
+                    </Nav.Link>
+                    <Nav.Link>
+                        <Link activeClass="active" className="NavBarLink" to="skills" spy={true} smooth={true} duration={500} >Skills</Link>
+                    </Nav.Link>
+                    <Nav.Link>
+                        <Link activeClass="active" className="NavBarLink" to="contact" spy={true} smooth={true} duration={500} >Contact</Link>
+                    </Nav.Link>
+                </Nav>
+            </Navbar.Collapse>
+        </Navbar>
     )
 }

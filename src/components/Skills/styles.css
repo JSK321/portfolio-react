@@ -1,0 +1,19 @@
+.skillsCard{
+    background: cornflowerblue;
+    width: 100%;
+    border: 0px;
+    color: beige;
+}
+
+.skillsTitle{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.skillsRow{
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none; 
+}

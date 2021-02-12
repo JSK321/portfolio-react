@@ -1,0 +1,17 @@
+body {
+    background: beige;
+    /* color:lightcyan; */
+    font-family: sans-serif;
+    
+}
+
+.nameTitle {
+    font-size: 100px;
+    text-align: center;
+}
+
+.jobTitle {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}

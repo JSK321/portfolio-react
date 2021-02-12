@@ -1,11 +1,9 @@
 .footer {
-    position: fixed;
-    bottom:0;
-    left:0;
-    width:100%;
-    background-color:lightslategrey;
+    margin: 10px auto;
     text-align: center;
-    height: 50px;
-    border-top: 10px solid cyan;
-
 } 
+
+.backToTop, .backToTop:link, .backToTop:hover, .backToTop:active, .backToTop:focus, .backToTop:visited{
+    color: black;
+    text-decoration: none;
+}
