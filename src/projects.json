@@ -29,7 +29,7 @@
     {
         "id": 4,
         "name": "Digital Clock",
-        "image": "https://i.imgur.com/ldkZ9dT.png",
+        "image": "https://i.imgur.com/Xz7wx7I.png",
         "link": "https://digital-mechanized-clock.herokuapp.com/",
         "github": "https://github.com/JSK321/clock",
         "description": "A simple 24 hour clock. A user is also able to change the clock into a timer using the buttons at the bottom.",
