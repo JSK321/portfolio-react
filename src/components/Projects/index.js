@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Card, Row, Col } from 'react-bootstrap'
+import { Card, Row,} from 'react-bootstrap'
 import ProjectCard from '../ProjectCard'
 import projects from '../../projects.json'
 import './styles.css'
